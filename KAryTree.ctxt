@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=KAryTree
+comment0.text=\r\n\ The\ class\ KAryTree\ keeps\ track\ of\ a\ binary\ search\ tree\ of\ KTreeNodes\ and\ IntNodes.\ It\ has\ methods\ to\ add\ new\ data\ to\ a\ node\ and\ add\r\n\ the\ node\ to\ the\ correct\ place\ in\ the\ tree,\ left,\ right,\ or\ same.\ It\ also\ has\ methods\ to\ return\ an\ array\ of\ integers\ of\ positions\ with\ the\ data\ in\ order.\r\n\r\n\ @author\ \ Valerie\ Foster\r\n\ @version\ 2/20/2018\r\n
+comment1.params=
+comment1.target=KAryTree()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BinaryTree\r\n
+comment2.params=
+comment2.target=int\ getSize()
+comment2.text=\r\n\ This\ method\ returns\ the\ number\ of\ elements\ in\ the\ tree\r\n\r\n\ @return\ \ \ \ the\ count\ of\ the\ BinaryTree\r\n
+comment3.params=newData\ newPos
+comment3.target=void\ add(java.lang.Comparable,\ int)
+comment3.text=\r\n\ This\ method\ adds\ a\ new\ node\ to\ the\ tree\ with\ data\ and\ a\ position\ by\ sending\ all\ the\ information\ to\ the\ recursive\ funtion\r\n\r\n\ @param\ \ \ newData\ \ \ \ \ the\ data\ to\ add\ to\ the\ tree\r\n\ @param\ \ \ newPos\ \ \ \ \ \ the\ position\ associated\ with\ the\ data\r\n
+comment4.params=newData\ newPos\ startNode
+comment4.target=KAryTree.KTreeNode\ add(java.lang.Comparable,\ int,\ KAryTree.KTreeNode)
+comment4.text=\r\n\ This\ private\ method\ adds\ a\ new\ node\ to\ the\ binary\ tree\ by\ using\ recursion\ to\ search\ for\ the\ right\ place\ to\ add\ it,\r\n\ starting\ the\ search\ at\ the\ specified\ node\ in\ the\ tree.\ \ \r\n\ \r\n\ @param\ \ \ newData\ \ \ \ \ \ \ \ \ the\ data\ to\ add\ to\ the\ tree\r\n\ @param\ \ \ newPos\ \ \ \ \ \ \ \ \ \ the\ position\ associated\ with\ the\ data\r\n\ @param\ \ \ startNode\ \ \ \ \ \ \ the\ TreeNode\ at\ which\ to\ start\ searching\ for\ the\ proper\ place\ for\ the\ data\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ startNode\ after\ it\ has\ been\ changed\r\n
+comment5.params=newPos\ startNode
+comment5.target=KAryTree.IntNode\ addSame(int,\ KAryTree.IntNode)
+comment5.text=\r\n\ This\ private\ method\ uses\ recursion\ to\ add\ an\ IntNode\ to\ the\ end\ of\ a\ line\ of\ same\ references\r\n\r\n\ @param\ \ \ newPos\ \ \ \ \ \ the\ position\ associated\ with\ the\ new\ node\r\n\ @param\ \ \ startNode\ \ \ The\ IntNode\ at\ which\ to\ start\ searching\ for\ the\ end\ of\ the\ line\ a\ same\ references\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ startNode\ after\ it\ has\ been\ changed\r\n
+comment6.params=
+comment6.target=int[]\ getPosData()
+comment6.text=\r\n\ This\ method\ initializes\ the\ array\ to\ return\ and\ the\ counter\ and\ calls\ the\ recursive\ function\ to\ do\ the\ work\r\n\r\n\ @return\ \ \ \ an\ array\ of\ positions\ of\ the\ nodes\ in\ the\ tree\ in\ order\r\n
+comment7.params=startNode
+comment7.target=int[]\ getPosData(KAryTree.KTreeNode)
+comment7.text=\r\n\ This\ private\ method\ uses\ a\ staring\ node\ to\ search\ through\ the\ tree\ and\ add\ the\ positions\ of\ the\ nodes\ in\ order\r\n\r\n\ @param\ \ \ startNode\ \ \ the\ TreeNode\ to\ start\ searching\ through\ and\ add\ to\ the\ array\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ an\ array\ of\ positions\ of\ the\ nodes\r\n
+numComments=8

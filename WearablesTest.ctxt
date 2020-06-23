@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WearablesTest
+comment0.text=\r\n\ The\ test\ class\ WearablesTest.\r\n\r\n\ @author\ \ Valerie\ Foster\r\n\ @version\ 2/20/2018\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ testGetDataByRank()
+comment3.params=
+comment3.target=void\ testGetDataByPrice()
+comment4.params=
+comment4.target=void\ testGetDataByComp()
+numComments=5
